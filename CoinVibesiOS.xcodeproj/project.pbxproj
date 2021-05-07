@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56010FE9185996DB001D4BFF /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56010FE7185996CE001D4BFF /* OpenSans-Light.ttf */; };
+		56010FEA185996DE001D4BFF /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56010FE8185996CE001D4BFF /* OpenSans-Regular.ttf */; };
+		56010FF7185ED697001D4BFF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56010FF6185ED697001D4BFF /* Icon@2x.png */; };
+		56010FFB185EE037001D4BFF /* experimental.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56010FFA185EE037001D4BFF /* experimental.jpg */; };
+		563AE3F8185089FD00411847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563AE3F7185089FD00411847 /* Foundation.framework */; };
+		563AE3FA185089FD00411847 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563AE3F9185089FD00411847 /* CoreGraphics.framework */; };
+		563AE3FC185089FD00411847 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563AE3FB185089FD00411847 /* UIKit.framework */; };
+		563AE402185089FD00411847 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 563AE400185089FD00411847 /* InfoPlist.strings */; };
+		563AE404185089FD00411847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 563AE403185089FD00411847 /* main.m */; };
+		563AE408185089FD00411847 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 563AE407185089FD00411847 /* AppDelegate.m */; };
+		563AE40B185089FD00411847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563AE409185089FD00411847 /* Main.storyboard */; };
+		563AE40E185089FD00411847 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563AE40D185089FD00411847 /* ViewController.m */; };
+		563AE410185089FD00411847 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563AE40F185089FD00411847 /* Images.xcassets */; };
+		563AE417185089FD00411847 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563AE416185089FD00411847 /* XCTest.framework */; };
+		563AE418185089FD00411847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563AE3F7185089FD00411847 /* Foundation.framework */; };
+		563AE419185089FD00411847 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 563AE3FB185089FD00411847 /* UIKit.framework */; };
+		563AE421185089FD00411847 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 563AE41F185089FD00411847 /* InfoPlist.strings */; };
+		563AE423185089FD00411847 /* CoinVibesiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 563AE422185089FD00411847 /* CoinVibesiOSTests.m */; };
+		569C4DF8185841C500134906 /* grey_rectangle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 569C4DF7185841C500134906 /* grey_rectangle.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		563AE41A185089FD00411847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563AE3EC185089FD00411847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563AE3F3185089FD00411847;
+			remoteInfo = CoinVibesiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56010FE7185996CE001D4BFF /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		56010FE8185996CE001D4BFF /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		56010FF6185ED697001D4BFF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		56010FFA185EE037001D4BFF /* experimental.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = experimental.jpg; sourceTree = "<group>"; };
+		563AE3F4185089FD00411847 /* CoinVibesiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinVibesiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		563AE3F7185089FD00411847 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		563AE3F9185089FD00411847 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		563AE3FB185089FD00411847 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		563AE3FF185089FD00411847 /* CoinVibesiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoinVibesiOS-Info.plist"; sourceTree = "<group>"; };
+		563AE401185089FD00411847 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		563AE403185089FD00411847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		563AE405185089FD00411847 /* CoinVibesiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoinVibesiOS-Prefix.pch"; sourceTree = "<group>"; };
+		563AE406185089FD00411847 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		563AE407185089FD00411847 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		563AE40A185089FD00411847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		563AE40C185089FD00411847 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		563AE40D185089FD00411847 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		563AE40F185089FD00411847 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		563AE415185089FD00411847 /* CoinVibesiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinVibesiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		563AE416185089FD00411847 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		563AE41E185089FD00411847 /* CoinVibesiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoinVibesiOSTests-Info.plist"; sourceTree = "<group>"; };
+		563AE420185089FD00411847 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		563AE422185089FD00411847 /* CoinVibesiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinVibesiOSTests.m; sourceTree = "<group>"; };
+		569C4DF7185841C500134906 /* grey_rectangle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grey_rectangle.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		563AE3F1185089FD00411847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563AE3FA185089FD00411847 /* CoreGraphics.framework in Frameworks */,
+				563AE3FC185089FD00411847 /* UIKit.framework in Frameworks */,
+				563AE3F8185089FD00411847 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563AE412185089FD00411847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563AE417185089FD00411847 /* XCTest.framework in Frameworks */,
+				563AE419185089FD00411847 /* UIKit.framework in Frameworks */,
+				563AE418185089FD00411847 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56010FEB1859A5D1001D4BFF /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				56010FE7185996CE001D4BFF /* OpenSans-Light.ttf */,
+				56010FE8185996CE001D4BFF /* OpenSans-Regular.ttf */,
+				569C4DF7185841C500134906 /* grey_rectangle.jpg */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		563AE3EB185089FD00411847 = {
+			isa = PBXGroup;
+			children = (
+				563AE3FD185089FD00411847 /* CoinVibesiOS */,
+				563AE41C185089FD00411847 /* CoinVibesiOSTests */,
+				563AE3F6185089FD00411847 /* Frameworks */,
+				563AE3F5185089FD00411847 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		563AE3F5185089FD00411847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				563AE3F4185089FD00411847 /* CoinVibesiOS.app */,
+				563AE415185089FD00411847 /* CoinVibesiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		563AE3F6185089FD00411847 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				563AE3F7185089FD00411847 /* Foundation.framework */,
+				563AE3F9185089FD00411847 /* CoreGraphics.framework */,
+				563AE3FB185089FD00411847 /* UIKit.framework */,
+				563AE416185089FD00411847 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		563AE3FD185089FD00411847 /* CoinVibesiOS */ = {
+			isa = PBXGroup;
+			children = (
+				563AE406185089FD00411847 /* AppDelegate.h */,
+				563AE407185089FD00411847 /* AppDelegate.m */,
+				56010FF6185ED697001D4BFF /* Icon@2x.png */,
+				56010FFA185EE037001D4BFF /* experimental.jpg */,
+				56010FEB1859A5D1001D4BFF /* assets */,
+				563AE409185089FD00411847 /* Main.storyboard */,
+				563AE40C185089FD00411847 /* ViewController.h */,
+				563AE40D185089FD00411847 /* ViewController.m */,
+				563AE40F185089FD00411847 /* Images.xcassets */,
+				563AE3FE185089FD00411847 /* Supporting Files */,
+			);
+			path = CoinVibesiOS;
+			sourceTree = "<group>";
+		};
+		563AE3FE185089FD00411847 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				563AE3FF185089FD00411847 /* CoinVibesiOS-Info.plist */,
+				563AE400185089FD00411847 /* InfoPlist.strings */,
+				563AE403185089FD00411847 /* main.m */,
+				563AE405185089FD00411847 /* CoinVibesiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		563AE41C185089FD00411847 /* CoinVibesiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				563AE422185089FD00411847 /* CoinVibesiOSTests.m */,
+				563AE41D185089FD00411847 /* Supporting Files */,
+			);
+			path = CoinVibesiOSTests;
+			sourceTree = "<group>";
+		};
+		563AE41D185089FD00411847 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				563AE41E185089FD00411847 /* CoinVibesiOSTests-Info.plist */,
+				563AE41F185089FD00411847 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		563AE3F3185089FD00411847 /* CoinVibesiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563AE426185089FD00411847 /* Build configuration list for PBXNativeTarget "CoinVibesiOS" */;
+			buildPhases = (
+				563AE3F0185089FD00411847 /* Sources */,
+				563AE3F1185089FD00411847 /* Frameworks */,
+				563AE3F2185089FD00411847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinVibesiOS;
+			productName = CoinVibesiOS;
+			productReference = 563AE3F4185089FD00411847 /* CoinVibesiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		563AE414185089FD00411847 /* CoinVibesiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563AE429185089FD00411847 /* Build configuration list for PBXNativeTarget "CoinVibesiOSTests" */;
+			buildPhases = (
+				563AE411185089FD00411847 /* Sources */,
+				563AE412185089FD00411847 /* Frameworks */,
+				563AE413185089FD00411847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563AE41B185089FD00411847 /* PBXTargetDependency */,
+			);
+			name = CoinVibesiOSTests;
+			productName = CoinVibesiOSTests;
+			productReference = 563AE415185089FD00411847 /* CoinVibesiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		563AE3EC185089FD00411847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Muhammad Asjad";
+				TargetAttributes = {
+					563AE414185089FD00411847 = {
+						TestTargetID = 563AE3F3185089FD00411847;
+					};
+				};
+			};
+			buildConfigurationList = 563AE3EF185089FD00411847 /* Build configuration list for PBXProject "CoinVibesiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 563AE3EB185089FD00411847;
+			productRefGroup = 563AE3F5185089FD00411847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				563AE3F3185089FD00411847 /* CoinVibesiOS */,
+				563AE414185089FD00411847 /* CoinVibesiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		563AE3F2185089FD00411847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569C4DF8185841C500134906 /* grey_rectangle.jpg in Resources */,
+				563AE410185089FD00411847 /* Images.xcassets in Resources */,
+				56010FF7185ED697001D4BFF /* Icon@2x.png in Resources */,
+				563AE402185089FD00411847 /* InfoPlist.strings in Resources */,
+				56010FE9185996DB001D4BFF /* OpenSans-Light.ttf in Resources */,
+				56010FFB185EE037001D4BFF /* experimental.jpg in Resources */,
+				56010FEA185996DE001D4BFF /* OpenSans-Regular.ttf in Resources */,
+				563AE40B185089FD00411847 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563AE413185089FD00411847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563AE421185089FD00411847 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		563AE3F0185089FD00411847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563AE40E185089FD00411847 /* ViewController.m in Sources */,
+				563AE408185089FD00411847 /* AppDelegate.m in Sources */,
+				563AE404185089FD00411847 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563AE411185089FD00411847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563AE423185089FD00411847 /* CoinVibesiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		563AE41B185089FD00411847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563AE3F3185089FD00411847 /* CoinVibesiOS */;
+			targetProxy = 563AE41A185089FD00411847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		563AE400185089FD00411847 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				563AE401185089FD00411847 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		563AE409185089FD00411847 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				563AE40A185089FD00411847 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		563AE41F185089FD00411847 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				563AE420185089FD00411847 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		563AE424185089FD00411847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		563AE425185089FD00411847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		563AE427185089FD00411847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoinVibesiOS/CoinVibesiOS-Prefix.pch";
+				INFOPLIST_FILE = "CoinVibesiOS/CoinVibesiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		563AE428185089FD00411847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoinVibesiOS/CoinVibesiOS-Prefix.pch";
+				INFOPLIST_FILE = "CoinVibesiOS/CoinVibesiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		563AE42A185089FD00411847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoinVibesiOS.app/CoinVibesiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoinVibesiOS/CoinVibesiOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoinVibesiOSTests/CoinVibesiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		563AE42B185089FD00411847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoinVibesiOS.app/CoinVibesiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoinVibesiOS/CoinVibesiOS-Prefix.pch";
+				INFOPLIST_FILE = "CoinVibesiOSTests/CoinVibesiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		563AE3EF185089FD00411847 /* Build configuration list for PBXProject "CoinVibesiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563AE424185089FD00411847 /* Debug */,
+				563AE425185089FD00411847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563AE426185089FD00411847 /* Build configuration list for PBXNativeTarget "CoinVibesiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563AE427185089FD00411847 /* Debug */,
+				563AE428185089FD00411847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563AE429185089FD00411847 /* Build configuration list for PBXNativeTarget "CoinVibesiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563AE42A185089FD00411847 /* Debug */,
+				563AE42B185089FD00411847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 563AE3EC185089FD00411847 /* Project object */;
+}
